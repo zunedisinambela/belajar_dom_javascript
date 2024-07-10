@@ -1,15 +1,8 @@
 document.title = 'Ubah Title'
-const body = document.body
-body.append("Hello World!")
+const btn1 = document.getElementById("btn1")
+const btn2 = document.getElementById("btn2")
 
-const h1 = document.createElement("h1")
-h1.textContent = "Belajar DOM Javascript"
-body.append(h1)
-
-const myName = document.createElement("p")
-myName.innerHTML = "Zunedi Sinambela"
-body.append(myName)
-
-const age = document.createElement("b")
-age.innerText = "26"
-body.append(age)
+btn1.style.border = 'none'
+btn1.style.padding = '8px'
+btn1.style.fontSize = '24px'
+btn1.style.background = 'tomato'
