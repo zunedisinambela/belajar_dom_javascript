@@ -8,3 +8,7 @@ btn1.style.fontSize = '24px'
 btn1.style.background = 'tomato'
 
 console.log(btn2)
+
+function gantiWarna(params) {
+  btn1.style.background = "aqua"
+}
